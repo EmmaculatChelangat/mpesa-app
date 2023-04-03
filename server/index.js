@@ -93,7 +93,7 @@ app.post("/stk", generateToken, async (req, res) => {
         PartyB: shortCode,
         PhoneNumber: `254${phone}`,
         //   CallBackURL: "https://mydomain.com/path",
-        CallBackURL: "https://a597-197-156-137-154.eu.ngrok.io/callback",
+        CallBackURL: "https://6563-102-0-0-136.in.ngrok.io/callback",
         AccountReference: `254${phone}`,
         TransactionDesc: "Testing stk push",
       },
